@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/* .box {
+    width: 500px;
+    height: 550px;
+    background-color: dodgerblue;
+    margin: 50px auto;
+    background: linear-gradient( red,blue);
+} */
+
+/* .container{ */
+/* 1 rem => 16px */
+/* width: 10rem;
+    height: 10rem;
+    background-color: dodgerblue;
+} */
+
+
+/* .img {
+        width: 500px;
+        height: 500px;
+        background-image: url("../images/Без\ названия.jpg");
+         background-repeat: no-repeat; 
+         background-size: cover;
+         background-size:contain ;
+    } */
+
+
+
+
+
+
+.text {
+    font-size: 150px;
+    background: linear-gradient(red, gold, blue);
+    -webkit-background-clip: text;
+    /* chrome, safari, moz ios, opera */
+    background-clip: text;
+    /* inter explorer, opera eski, ... yandex, edge */
+    -webkit-text-fill-color: transparent;
+    /* PREFIX */
+    /* -ms  => microsoft edge*/
+    /* -o => opera */
+    /* -webkit => chrome, safari, moz ios, opera */
+    /* -moz => mozilla firefox */
+}
